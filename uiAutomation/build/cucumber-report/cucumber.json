@@ -1,0 +1,50 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-01-22T19:05:19.157Z",
+        "line": 4,
+        "name": "A valid email id is allowed to login",
+        "description": "",
+        "id": "login-to-application;a-valid-email-id-is-allowed-to-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 15451594000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Navigate to login page",
+            "match": {
+              "location": "stepDefinitions.LoginPageSteps.navigateToLogin()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          }
+        ]
+      }
+    ],
+    "name": "Login to Application",
+    "description": "",
+    "id": "login-to-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/ElsaLogin.feature",
+    "tags": [
+      {
+        "name": "@login",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
